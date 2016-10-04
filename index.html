@@ -14,13 +14,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Video Call Demo 01</title>
+    <title>getUserMedia Demo</title>
     <meta charset="utf-8">
-    <script type="text/javascript" src="https://github.com/webrtc/adapter/blob/master/release/adapter.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>
-      Video Call Demo
-    </h1>
+    <div id="container">
+      <h1>
+        getUserMediaDemo v1.0
+      </h1>
+      <video id="gum-local" autoplay></video>
+      <div id="errorMsg"></div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" scr="js/adapter.js"></script>
+    <script type="text/javascript" scr="js/common.js"></script>
+    <script type="text/javascript" scr="js/ga.js"></script>
+
   </body>
 </html>
